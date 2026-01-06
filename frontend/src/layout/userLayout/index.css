@@ -1,0 +1,73 @@
+#user-layout .header {
+    position:fixed;
+    width: 100%;
+    background: rgb(104, 23, 203);
+    height: 3rem;;
+    padding: 1.5rem;
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.566);
+    margin-bottom: 1rem;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    color: rgb(255, 255, 255);
+    z-index: 500;
+}
+
+#user-layout .heading a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#user-layout{
+    cursor:default;
+}
+
+#user-layout .header h2:hover {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    transition: 0.2s;
+}
+
+#user-layout main {
+    margin-top: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+
+#user-layout {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+
+#user-layout nav {
+    width: 350px;   
+    font-weight: 400;
+    display: flex;
+    gap: 1.5rem;
+}
+
+#user-layout nav >  a, label {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;}
+
+#user-layout nav > a:hover, label:hover {
+    text-decoration: underline;
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    transition: 0.2s;
+}
+
+
+#user-layout footer {
+    background: #e4e4e468;
+    padding: 2rem;
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+    bottom:-4.8rem;
+    width: 100%;
+    display:none;
+}   
